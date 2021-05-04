@@ -34,14 +34,14 @@
             </div>
             <div fxLayout="row wrap" fxLayoutAlign="center start">
                 <mat-form-field fxFlex="50" class="pr-2">
-                    <input matInput type="text" [formControl]="myForm.controls['zipCode']" placeholder="Zip Code">
+                    <input matInput type="text" [formControl]="myForm.controls['zipCode']" maxlength="6" placeholder="Zip Code">
                 </mat-form-field>
                 <mat-form-field fxFlex="50">
-                    <input matInput type="number" [formControl]="myForm.controls['phone']" placeholder="Phone">
+                    <input matInput type="tel" [formControl]="myForm.controls['phone']" placeholder="Phone xxx-xxx-xxxx">
                 </mat-form-field>
             </div>
             <mat-form-field class="flat">
-                <input matInput type="email" [formControl]="myForm.controls['email']" placeholder="Email">
+                <input matInput type="email" [formControl]="myForm.controls['email']" maxlength="13" placeholder="Email">
             </mat-form-field>
             <h4 class="txt-white"><strong>Test Drive Location</strong></h4>
             <mat-radio-group aria-label="Select an option" [formControl]="myForm.controls['drivingLocation']">
@@ -61,7 +61,7 @@
                 </mat-form-field>
             </div>
             <mat-form-field class="flat">
-                <input matInput type="text" [formControl]="myForm.controls['zipCode2']" placeholder="zipCode2">
+                <input matInput type="text" [formControl]="myForm.controls['zipCode2']" maxlength="6" placeholder="zipCode2">
             </mat-form-field>
 
             <div>
