@@ -1,0 +1,29 @@
+.my-div {
+    padding: 20px;
+    background-color: #414141;
+}
+
+.flat {
+    width: 100% !important;
+}
+
+.pr-2 {
+    padding-right: 10px !important;
+}
+
+.txt-white {
+    color: white !important;
+}
+
+.mat-radio-button {
+    margin-bottom: 8px;
+}
+
+.mat-raised-button {
+    background-color: #9f0121 !important;
+    color: white !important;
+}
+
+.mat-form-field-wrapper .mat-form-field-flex {
+    background-color: white;
+}
